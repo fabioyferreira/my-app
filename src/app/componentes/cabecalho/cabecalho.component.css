@@ -1,0 +1,10 @@
+
+.nav-cabecalho{
+    display: flex;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+margin: 0;
+background-color: rgb(163, 219, 200);
+height: 50px;
+}

@@ -1,0 +1,10 @@
+
+.home{
+    display: flex;
+    height: 800px;
+   
+   background-image: url(/my-app/src/app/imagens/terapia1.jpg);
+}
+
+
+

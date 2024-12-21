@@ -1,20 +1,21 @@
-
-.nav-cabecalho{
+.nav-cabecalho {
     display: flex;
-    align-items: center; /*<-- alinha horizontalmente-->*/
+    align-items: center;
+    /*<-- alinha horizontalmente-->*/
     justify-content: end;
 
     margin: 0;
-background-color: rgb(163, 219, 200);
-height: 20%;
-padding: 30px;
-gap: 30px;
+    background-color: rgb(163, 219, 200);
+    height: 1vh;
+    padding: 30px;
+    gap: 30px;
 }
 
-.menu{
+.menu {
     display: flex;
-    gap: 30px;/* separa as palavras do menu*/
+    gap: 30px;
+    /* separa as palavras do menu*/
     padding: 0;
-    
-justify-content: space-between;
+
+    justify-content: space-between;
 }

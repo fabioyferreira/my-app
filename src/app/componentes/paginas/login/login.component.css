@@ -6,7 +6,9 @@
  align-content: center;
  width: 100%;
  height: 100vh;
- background-color: rgb(224, 247, 247);
+ /*background-color: rgb(224, 247, 247);*/
+
+ background-image: url('/my-app/src/assets/login.jpg');
  
 }
 
@@ -22,6 +24,6 @@
     height: 200px;
     padding: 20px; /* centraliza o conteudo dentro da cixa*/
     margin: 20px;
-    background-image: url(/my-app/src/app/imagens/terapia1.jpg)
+    background-color: rgb(191, 241, 225);
 }
 

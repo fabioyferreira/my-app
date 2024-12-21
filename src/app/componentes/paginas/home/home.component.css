@@ -1,29 +1,67 @@
-
-.home{
+.home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 300vh;
-    height: 100vh;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+   height: 100vh;
     background: rgb(250, 247, 241);
-    
-    
-   
 
+
+    /*margin: 20px; coloca margem na p[agina inteira*/
 }
 
-.home-section1{
+#home-section1 {
+    background-image: url(../../../../assets/imagens/terapia1.jpg);
+}
+
+.home-section1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 300vh;
-    height: 10vh;
-    /*background: rgb(250, 247, 241);*/
-    background-image: url(/my-app/src/assets/imagens/terapia1.jpg);
-    
-   
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
 
 }
 
+.home-section2 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    margin: 40px;
+}
+
+.vamos-conversar {
+    text-align: justify;
+}
+
+.home-section2-subtopico1 {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 20px;
+    width: 50vw;
+    height: 10vh;
+}
 
 
+.home-section2-subtopico2 {
+    margin: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-image: url(../../../../assets/imagens/profissionais-de-Psicologia.jpg);
+    background-repeat: no-repeat;
+    margin: 20px;
+    width: 50vw;
+    height: 50vh;
+}

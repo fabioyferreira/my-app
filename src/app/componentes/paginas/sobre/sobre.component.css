@@ -14,8 +14,8 @@
     flex-direction: column;
     justify-content: space-between;
     width: 30vh;
-    height: 100vh;
+    height: 50vh;
     padding: 20vh;
-    background-color: bisque;
+    background-color: rgb(203, 218, 208);
 
 }

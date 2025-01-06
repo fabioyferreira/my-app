@@ -11,6 +11,8 @@ import { LoginComponent } from './componentes/paginas/login/login.component';
 import { ContaComponent } from './componentes/paginas/conta/conta.component';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { FormsModule } from "@angular/forms";
+import { PainelComponent } from './componentes/paginas/painel/painel.component'
 
 
 
@@ -22,11 +24,13 @@ import { getAnalytics } from "firebase/analytics";
     HomeComponent,
     SobreComponent,
     LoginComponent,
-    ContaComponent
+    ContaComponent,
+    PainelComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     
     
   ],

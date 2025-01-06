@@ -4,18 +4,19 @@
 <div class="tela-login">
     <header>Entre com seu e-mail </header>
     <div class="for-login">
-        <div>
+        <form action="">
             <label for="entrar">Usuario: </label><br>
-            <input type="entrar" placeholder="Informe seu usuário">
+            <input  [(ngModel)]="userName" [ngModelOptions] = "{standalone:true}" class="inputStyle" type="entrar" placeholder="Informe seu usuário">
             <br>
             <br>
             <label for="entrar">Senha:</label><br>
-            <input type="entrar" placeholder="Informe sua senha">
-        </div>
+            <input class="inputStyle" type="entrar" placeholder="Informe sua senha">
+            <div> 
+                <button type="submit" (click)="login()">Entrar</button>
+            </div>
+        </form>
         <br>
-        <div> 
-            <button type="submit">Entrar</button>
-        </div>
+     
 
     </div>
 

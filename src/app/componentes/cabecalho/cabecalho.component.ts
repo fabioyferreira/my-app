@@ -13,3 +13,4 @@ export class CabecalhoComponent {
     this.userName = sessionStorage.getItem('user');
   }
 }
+

@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './cabecalho.component.css'
 })
 export class CabecalhoComponent {
-
+  userName:string | null;
+  ngOnInit(){
+    this.userName = sessionStorage.getItem('user');
+  }
 }

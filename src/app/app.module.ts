@@ -9,6 +9,12 @@ import { HomeComponent } from './componentes/paginas/home/home.component';
 import { SobreComponent } from './componentes/paginas/sobre/sobre.component';
 import { LoginComponent } from './componentes/paginas/login/login.component';
 import { ContaComponent } from './componentes/paginas/conta/conta.component';
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import { FormsModule } from "@angular/forms";
+import { PainelComponent } from './componentes/paginas/painel/painel.component'
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +24,15 @@ import { ContaComponent } from './componentes/paginas/conta/conta.component';
     HomeComponent,
     SobreComponent,
     LoginComponent,
-    ContaComponent
+    ContaComponent,
+    PainelComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -45,7 +45,9 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin: 20px;
+    margin: 2%;
+    gap: 20%;
+    padding: 2%;
     width: 50vw;
     height: 10vh;
 }
